@@ -1,0 +1,18 @@
+﻿<Window x:Class="DockPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DockPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="True">
+        <TextBlock DockPanel.Dock="Top" Text="Bock Top" Background="BurlyWood"/>
+        <TextBlock DockPanel.Dock="Bottom" Text="Doxk bOTTOM" Background="Violet"/>
+        <TextBlock DockPanel.Dock="Left" Text="Doxk Left" Background="Bisque"/>
+        <TextBlock DockPanel.Dock="Right" Text="Dock Right" Background="Aqua"/>
+        <TextBlock Text="Dock psnel не установлен" Background="GreenYellow"/>
+        
+
+    </DockPanel>
+</Window>
